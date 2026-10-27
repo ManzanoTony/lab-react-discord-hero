@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  background-color: #404eed;
+  color: white;
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 140px;
+}
+
+.menu-icon {
+  width: 30px;
+}
+
+.content-wrap {
+  max-width: 650px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.white-btn {
+  background-color: white;
+  color: #23272a;
+}
+
+.dark-btn {
+  background-color: #23272a;
+  color: white;
+}
+
+.bg-image {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+}
